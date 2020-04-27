@@ -1,42 +1,49 @@
 // Базовые цвета https://colorscheme.ru/color-converter.html
 
-$black:                       #282B30;
+$black:                       #000000;
+$gray-darkest:                #111111;
+$gray-darker:                 #444444;
+$gray:                        #666666;
+$gray-light:                  #cdcdcd;
+$gray-lighten:                #dcdcdc;
+$gray-lighter:                #eaeaea;
+$gray-lightest:               #f2f2f2;
+$white:                       #ffffff;
 
-$primary-main: #1a4cbb;
-$primary-dark: #002372;
+$color-main:                  #68b738;
+$color-success:               #68B738;
+$color-danger:                #FF8282;
+$color-warning:               #FFA1A1;
 
-$secondary-main: #96B2BD;
-$secondary-dark: #60808D;
-$secondary-light: #B6CAD1;
-
-$btn-color: linear-gradient(197.26deg, #1A4CBB 33.97%, #4679EC 139.06%);
-
-$color-vk:                    #4a76a8;
-$color-fb:                    #4267b2;
-$color-tw:                    #40a2f5;
-$color-gh:                    #24292e;
+$color-vk:                    #666666;
+$color-fb:                    #666666;
+$color-tw:                    #666666;
+$color-gh:                    #666666;
 
 
 
 // Семантические цвета
 
-$text-color:                  $black;
+$text-color:                  $gray-darkest;
+$text-color-muted:            $gray;
+$body-bg:                     $white;
 
-$link-color:                  $black;
-$link-color--hover:           $primary-main;
+$link-color:                  $gray-darkest;
+$link-color--hover:           darken($color-main, 15%);
 
-$border-color:                $black;
+$border-color:                $gray-light;
+
 
 
 // Базовая типографика
 
-$font-size:                   14px;
+$font-size:                   16px;
 
-$font-size-h1:                38px;
-$font-size-h2:                27px;
-$font-size-h3:                24px;
-$font-size-h4:                18px;
-$font-size-h5:                17px;
+$font-size-h1:                100px;
+$font-size-h2:                60px;
+$font-size-h3:                36px;
+$font-size-h4:                20px;
+$font-size-h5:                16px;
 $font-size-h6:                16px;
 
 $font-size-sm:                0.75em; // 12px от 16px
@@ -58,11 +65,13 @@ $screen-sm:                   480px;
 $screen-md:                   768px;
 $screen-lg:                   992px;
 $screen-xl:                   1200px;
+$screen-xxl:                  1800px;
 
 $container-sm:                100%;
 $container-md:                100%;
 $container-lg:                $screen-lg - 30;
 $container-xl:                $screen-xl - 30;
+$container-xxl:               $screen-xxl - 30;
 
 
 
@@ -78,13 +87,13 @@ $grid-gutter-width:           30px;
 $field-padding-vertical:      5px;
 $field-padding-horizontal:    12px;
 
-$border-radius:               32px;
+$border-radius:               3px;
 $opacity:                     0.7;
 $transition-time:             0.3s;
 $shadow:                      0 4px 2px -2px rgba(0, 0, 0, 0.3);
 
 $menu-desktop-width:          $screen-lg;
 $toggler-part-height:         3px;
-$toggler-part-bg-color:       #fff;
+$toggler-part-bg-color:       #000;
 
 $z-index-modal:               100;
