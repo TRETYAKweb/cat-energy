@@ -6,7 +6,6 @@ module.exports = () => {
         .pipe($.gp.sassGlob())
         .pipe($.gp.sass())
         .pipe($.gp.autoprefixer())
-        .pipe($.gp.csso())
         .pipe($.gp.rename('style.min.css'))
         .pipe($.gp.sourcemaps.write(''))
         .pipe($.gulp.dest('build/css'))

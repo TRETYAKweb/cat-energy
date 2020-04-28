@@ -14,24 +14,24 @@
   padding: $field-padding-vertical  $field-padding-horizontal;
   vertical-align: middle;
   white-space: nowrap;
+  text-transform: uppercase;
   text-overflow: ellipsis;
   user-select: none;
   text-align: center;
   font-size: 1em;
-  font-family: inherit;
+  font-family: $font-family--headers;
   line-height: $line-height;
   text-decoration: none;
-  text-transform: none;
-  color: $text-color;
-  background-color: $gray-lightest;
+  color: $white;
+  background-color: $color-main;
   background-image: none;
   cursor: pointer;
 
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $text-color;
-    background-color: darken($gray-lightest, 10%);
+    color: $white;
+    background-color: darken($color-main, 10%);
     // border-color: darken($gray-lighter, 12%);
   }
 

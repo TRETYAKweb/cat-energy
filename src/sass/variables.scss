@@ -11,6 +11,7 @@ $gray-lightest:               #f2f2f2;
 $white:                       #ffffff;
 
 $color-main:                  #68b738;
+$color-title:                 $gray-darkest;
 $color-success:               #68B738;
 $color-danger:                #FF8282;
 $color-warning:               #FFA1A1;
@@ -52,9 +53,9 @@ $line-height:                 1.5;
 
 $typo-margin-vertical:        1em;
 
-$font-family:                 -apple-system, BlinkMacSystemFont, 'Roboto', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-$font-family--monospace:     SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-// Georgia, Times New Roman, Times, serif
+$font-family:                 -apple-system, BlinkMacSystemFont, Arial, 'Ubuntu', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-family--monospace:      SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+$font-family--headers:        'Oswald', sans-serif;
 
 
 
@@ -64,28 +65,26 @@ $screen-xs:                   0;
 $screen-sm:                   480px;
 $screen-md:                   768px;
 $screen-lg:                   992px;
-$screen-xl:                   1200px;
-$screen-xxl:                  1800px;
+$screen-xl:                   1440px;
 
 $container-sm:                100%;
 $container-md:                100%;
 $container-lg:                $screen-lg - 30;
-$container-xl:                $screen-xl - 30;
-$container-xxl:               $screen-xxl - 30;
+$container-xl:                $screen-xl - 140;
 
 
 
 // Модульная сетка
 
 $grid-columns:                12;
-$grid-gutter-width:           30px;
+$grid-gutter-width:           80px;
 
 
 
 // Разное
 
-$field-padding-vertical:      5px;
-$field-padding-horizontal:    12px;
+$field-padding-vertical:      17px;
+$field-padding-horizontal:    26px;
 
 $border-radius:               3px;
 $opacity:                     0.7;

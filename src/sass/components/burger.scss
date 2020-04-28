@@ -4,13 +4,11 @@
 
 .burger {
   display: inline-block;
-  order: -1;
   position: relative;
   z-index: 1;
-  width: 70px;
-  height: 70px;
+  width: 30px;
   border: none;
-  padding: 0 20px;
+  padding: 0;
   line-height: 30px;
   background: transparent;
   user-select: none;
@@ -49,7 +47,6 @@
   }
 
   &--close {
-    background-color: $primary-main;
 
     > span { // stylelint-disable-line  selector-combinator-blacklist
       transition: background $transition-time 0s;
@@ -59,7 +56,6 @@
       &:after {
         top: 0;
         transition: top $transition-time, transform $transition-time $transition-time;
-        background-color: #fff;
       }
 
       &:before {
@@ -72,20 +68,3 @@
     }
   }
 }
-
-@media (min-width: $screen-md) {
-
-  .burger {
-    order: inherit;
-  }
-}
-
-
-
-@media (min-width: $screen-xl) {
-
-  .burger {
-    display: none;
-  }
-}
-
